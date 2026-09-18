@@ -84,7 +84,7 @@ bool isSorted(const int* arr, const int size) {
     }
 
     for (int i = 1; i < size; i++) {
-        if (arr[i] <= arr[i - 1]) {
+        if (arr[i] < arr[i - 1]) {
             return false; 
         }
     }
